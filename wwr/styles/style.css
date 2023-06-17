@@ -206,8 +206,94 @@ nav {
     transform: scale(1.1);
 }
 
+/*SUBPAGE*/
+#landscape-img {
+    width: 100%;
+}
+.subpage-title {
+    color: #058205;
+    font-family: "Gloria Hallelujah";
+    font-size: 2em;
+    margin-top: 10px;
+}
+#landscape-msg h1, #landscape-msg h4 {
+    text-align: center;
+    color: #fdc345; 
+}
 
-
+.info1 {
+    background-color: #fdc345;
+    line-height: 1em;
+    grid-column: 7/12;
+    grid-row: 2/3;
+    margin: 100px 0;
+    padding: 5px;
+}
+.info2 {
+    background-color: #fdc345;
+    line-height: 1em;
+    grid-column: 7/12;
+    grid-row: 4/5;
+    margin: 100px 0;
+    padding: 5px;
+}
+.info3 {
+    background-color: #fdc345;
+    line-height: 1em;
+    grid-column: 7/12;
+    grid-row: 6/7;
+    margin: 100px 0;
+    padding: 5px;
+}
+.info1 h2, .info2 h2, .info3 h2 {
+    color: #0081a7;
+    font-family: "Gloria Hallelujah";
+}
+.info1 p, .info2 p, .info3 p {
+    color: #0081a7;
+    font-size: .8em;
+    text-align: left;
+}
+.info1 h2, .info2 h2, .info3 h2 {
+    color: #0081a7;
+    font-size: 1em;
+}
+#landscape {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#landscape-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#landscape-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.river-img {
+    width: 100%;
+}
+.salomon-card {
+    grid-column: 2/6;
+    grid-row: 2/3;
+}
+.desolation-card {
+    grid-column: 2/6;
+    grid-row: 4/5;
+}
+.grandcanyon-card {
+    grid-column: 2/6;
+    grid-row: 6/7;
+}
+.salomon-card, .desolation-card, .grandcanyon-card {
+    margin: 100px 0;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
