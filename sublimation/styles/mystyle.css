@@ -71,7 +71,7 @@ footer .social img {
     align-self: center;
 }
 
-
+ 
 
 .memory-img, .identity-img {
     width: 75%;
@@ -107,4 +107,90 @@ footer .social img {
 .title2 h1 {
     color: #548AFF;
     font-size: 2em;
+}
+
+/*SUBPAGE*/
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.info1 {
+    background-color: #fdc345;
+    line-height: 1em;
+    grid-column: 7/12;
+    grid-row: 2/3;
+    margin: 100px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px; 
+}
+.info2 {
+    background-color: #fdc345;
+    line-height: 1em;
+    grid-column: 7/12;
+    grid-row: 4/5;
+    margin: 100px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px; 
+}
+.info3 {
+    background-color: #fdc345;
+    line-height: 1em;
+    grid-column: 7/12;
+    grid-row: 6/7;
+    margin: 100px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 140px;
+}
+.info1 h2, .info2 h2, .info3 h2 {
+    color: #0081a7;
+    font-family: "Courgette";
+    font-size: 1.5em;
+    text-align: center;
+}
+.info1 p, .info2 p, .info3 p {
+    color: #0081a7;
+    font-size: .8em;
+    text-align: center;
+}
+
+.service-img {
+    width: 100%; 
+    box-shadow: 5px 5px 10px #ee5908;
+}
+.screenprinting-card {
+    grid-column: 2/6;
+    grid-row: 2/3;
+}
+.embroidery-card {
+    grid-column: 2/6;
+    grid-row: 4/5;
+}
+.sublimation-card {
+    grid-column: 2/6;
+    grid-row: 6/7;
+}
+.screenprinting-card, .embroidery-card, .sublimation-card {
+    margin: 100px 0;
+}
+
+.new-botton {
+   grid-column: 11/13;
+   grid-row: 11/12;
+}
+.previous {
+    background-color: #0081a7;
+    color: #fdc345;
+    font-size: 1em;
+    text-decoration: none;
+    
+}
+.next {
+    background-color: #0081a7;
+    color: #fdc345;
+    font-size: 1em;
+    text-decoration: none;
 }
