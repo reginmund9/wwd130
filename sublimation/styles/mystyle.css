@@ -63,7 +63,7 @@ footer .social img {
 
 
 .logo {
-    width: 80px;
+    width: 100px;
 }
 #logo_link {
     padding-top: 5px;
@@ -109,7 +109,7 @@ footer .social img {
     font-size: 2em;
 }
 
-/*SUBPAGE*/
+/*SUBPAGE1*/
 .services-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -195,3 +195,61 @@ footer .social img {
     text-decoration: none;
     
 } 
+
+/*SUBPAGE2*/
+.sewing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.infor1 {
+    background-color: #fdc345;
+    line-height: 1em;
+    grid-column: 2/6;
+    grid-row: 2/3;
+    margin: 100px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px; 
+}
+.infor2 {
+    background-color: #fdc345;
+    line-height: 1em;
+    grid-column: 7/12;
+    grid-row: 4/5;
+    margin: 100px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px; 
+}
+.infor1, .infor2 {
+    margin: 300px 0;
+}
+.infor1 h2, .infor2 h2 {
+    color: #0081a7;
+    font-family: "Courgette";
+    font-size: 1.5em;
+    text-align: center;
+}
+.infor1 p, .infor2 p {
+    color: #0081a7;
+    font-size: .8em;
+    text-align: center;
+}
+.sewing-img {
+    width: 100%;
+    border: 10px solid #ee5908;
+    box-shadow: 5px 5px 10px #fdc345 ;
+}
+.schools-card {
+    grid-column: 7/12;
+    grid-row: 2/3;
+
+}
+.bands-card {
+    grid-column: 2/6;
+    grid-row: 4/5;
+    
+}
+.schools-card, .bands-card {
+    margin: 100px 0;
+}
